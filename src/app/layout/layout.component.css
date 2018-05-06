@@ -1,0 +1,27 @@
+.grid-container {
+    display: grid;
+    /*background-color: #DC143C;*/
+    /*border: 2px solid;*/
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 300px 300px;
+    grid-gap: 10px;
+    padding:25px;
+    justify-content: left;
+}
+.grid-container > div {
+    background-color: #000000;
+    text-align: center;
+    padding: 20px;
+    font-size: 90px;
+    border: 2px solid;
+}
+.box:hover
+{
+    -moz-box-shadow: 0 0 40px #ccc;
+    -webkit-box-shadow: 0 0 40px #ccc;
+    box-shadow: 0 0 40px #ccc;
+}
+.h3-color{
+    color: #FF1493;
+    font-size: 75px;
+}
